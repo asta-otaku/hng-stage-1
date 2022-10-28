@@ -2,10 +2,21 @@
 
 .App {
   text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
 }
 
 .profile__img__container {
   margin-top: 4rem;
+}
+
+.avatar-share {
+  position: absolute;
+  left: 70%;
+  top: 6%;
 }
 
 .profile__name {
@@ -18,13 +29,52 @@
 }
 
 .profile {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 
 li {
   list-style: none;
   width: 72rem;
-  margin: 0.5rem auto;
+  margin: 1.5rem auto;
   background: #EAECF0;
-  padding: 2.3rem 0;
+  padding: 1.5rem 0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#slack {
+  display: none;
+}
+
+.acc {
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.slack-container {
+  padding-right: 1.6rem;
+  margin-left: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  margin-top: 4rem;
+  border: 1px dashed #EAECF0;
+  justify-content: space-between;
+}
+
+.footer-container li {
+  background: transparent;
+  border: none;
+}
+
+.footer-comment {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #667085;
 }
