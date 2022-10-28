@@ -10,13 +10,36 @@ function App() {
       </div>
       <section className="profile">
         <ul>
-          <li id="twitter">Twitter Link</li>
-          <li>Zuri Team</li>
-          <li>Zuri Books</li>
-          <li id="slack">Slack</li>
-          <li>Python Books</li>
-          <li>Background Check for Coders</li>
-          <li>Design Books</li>
+          <li>Afolabi69093815</li>
+          <li id="slack">afolabiibrahim08</li>
+          <li>
+            <a id="btn__zuri" href="https://training.zuri.team/">
+              Zuri Team
+            </a>
+          </li>
+          <li>
+            <a id="books" href=" http://books.zuri.team">
+              Zuri Books
+            </a>
+          </li>
+          <li>
+            <a
+              id="book__python"
+              href="https://books.zuri.team/python-for-beginners?ref_id=afolabiibrahim08"
+            >
+              Python Books
+            </a>
+          </li>
+          <li>
+            <a id="pitch" href="https://background.zuri.team">
+              Background Check for Coders
+            </a>
+          </li>
+          <li>
+            <a id="book__design" href="https://books.zuri.team/design-rules">
+              Design Books
+            </a>
+          </li>
         </ul>
       </section>
     </div>
