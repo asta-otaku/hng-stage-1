@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./components/Home";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const location = useLocation();
