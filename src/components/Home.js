@@ -81,6 +81,9 @@ function Home() {
               Design Books
             </a>
           </li>
+          <li>
+            <a href="/contact">Contact Me</a>
+          </li>
         </ul>
         <div className="acc">
           <span className="slack-container">
