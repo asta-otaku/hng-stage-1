@@ -60,26 +60,6 @@ a {
   margin-left: 5%;
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 3.5rem;
-  border: 1px dashed #EAECF0;
-  text-align: left;
-}
-
-.footer-container li {
-  background: transparent;
-  border: none;
-  margin: 0.5rem 0;
-  padding: 0;
-}
-
-.footer-comment {
-  font-size: 14px;
-  font-weight: 400;
-  color: #667085;
-}
 
 
 @media (min-width: 40rem) {
@@ -103,11 +83,5 @@ a {
 
   li {
     width: 72rem;
-  }
-
-  .footer-container {
-    flex-direction: row;
-    margin-top: 4rem;
-    justify-content: space-between;
   }
 }

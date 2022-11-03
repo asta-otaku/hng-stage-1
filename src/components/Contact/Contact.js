@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
+import Footer from "../Footer/Footer";
 
 function Contact() {
   const [first_name, setFirst_Name] = useState("");
@@ -38,6 +39,7 @@ function Contact() {
           <button id="btn__submit">Send message</button>
         </form>
       </div>
+      <Footer />
     </>
   );
 }
