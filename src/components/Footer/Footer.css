@@ -23,6 +23,7 @@
   .footer-container {
     flex-direction: row;
     margin-top: 4rem;
+    text-align: center;
     justify-content: space-between;
   }
 }

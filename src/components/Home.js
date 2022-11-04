@@ -82,7 +82,9 @@ function Home() {
             </a>
           </li>
           <li>
-            <a href="/contact">Contact Me</a>
+            <a id="contact" href="/contact">
+              Contact Me
+            </a>
           </li>
         </ul>
         <div className="acc">

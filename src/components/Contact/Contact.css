@@ -1,29 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
 
 .contact-container {
-    padding: 4rem 1rem;
+  padding: 4rem 1rem;
 }
 
 .contact-container h4 {
-    font-family: "Inter",sans-serif;
-    font-weight: 600;
-    font-size: 36px;
-    color: #101828;
-    line-height: 44px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #101828;
+  line-height: 44px;
+  letter-spacing: -0.02rem;
 }
 
 .contact-container p {
-    margin-top: 1rem;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #475467;
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #475467;
 }
 
 .contact-span {
-    display: block;
+  display: block;
 }
 
 .form-fields {
-    margin-top: 3rem;
+  margin-top: 3rem;
+}
+
+label {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+  margin-bottom: 6px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 343px;
+  padding: 10px 14px;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Inter" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+textarea {
+  resize: none;
+  display: block;
+  width: 343px;
+  height: 132px;
+  padding: 12px 14px;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  outline: none;
+}
+
+input[type="checkbox"] ~ p {
+  padding-top: 2rem;
+  margin-left: 12px;
+}
+
+.span-check {
+  display: block;
+}
+
+#btn__submit {
+  padding: 12px 20px;
+  gap: 8px;
+  width: 343px;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 2rem;
+}
+
+@media (min-width: 40rem) {
+  .contact-container {
+    padding: 9.75rem 22.5rem;
+  }
+
+  .contact-container p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .contact-span {
+    display: inline;
+  }
+
+  input[type="text"] {
+    width: 348px;
+  }
+
+  input[type='email'] {
+    width: 720px;
+  }
+
+  .name-flex {
+    display: flex;
+  }
+
+  .name-flex div:first-of-type {
+    margin-right: 24px;
+  }
+
+  textarea {
+    width: 720px;
+  }
+
+  input[type="checkbox"]~p {
+    padding-top: 0;
+  }
+
+  .span-check {
+    display: inline;
+  }
+
+  #btn__submit {
+    width: 720px;
+  }
 }
