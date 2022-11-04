@@ -104,6 +104,10 @@ input[type="checkbox"] ~ p {
   margin-top: 2rem;
 }
 
+.error {
+  color: red;
+}
+
 @media (min-width: 40rem) {
   .contact-container {
     padding: 9.75rem 22.5rem;
